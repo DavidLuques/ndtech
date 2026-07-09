@@ -5,9 +5,10 @@ export default function Services() {
     <section id="servicios" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-blue-900 mb-4">Nuestros Servicios END</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ofrecemos una gama completa de ensayos no destructivos certificados para la industria petrolera
+          <h2 className="text-4xl font-bold text-blue-900 mb-4">Nuestros Servicios</h2>
+          <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+            En Ndtech nos enfocamos en brindar un servicio de excelencia en cada proyecto.
+            Contamos con un grupo de profesionales calificados, certificados bajo norma ISO 9712 y con amplia experiencia en el sector petrolero, energético, metalmecánico e industrial.
           </p>
         </div>
 

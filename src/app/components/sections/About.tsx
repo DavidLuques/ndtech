@@ -8,11 +8,21 @@ export default function About() {
           <div>
             <h2 className="text-4xl font-bold mb-6">Acerca de Nosotros</h2>
             <p className="text-lg mb-6 text-blue-100">
-              Somos una empresa especializada en ensayos no destructivos (END) para la industria petrolera. Nuestro equipo de profesionales altamente capacitados utiliza tecnología de última generación para garantizar la máxima precisión en cada inspección.
+             En Ndtech brindamos soluciones integrales de inspección diseñadas para maximizar la vida útil y la seguridad de sus instalaciones, equipos y productos mediante los END (Ensayos no Destructivos). Nuestro equipo de inspectores certificados combina experiencia técnica con tecnología avanzada para ofrecer diagnósticos precisos en componentes en servicio o en fábricacion. 
             </p>
             <p className="text-lg mb-8 text-blue-100">
-              Nos enfocamos en brindar servicios de excelencia, con protocolos rigurosos de calidad y seguridad. Cada proyecto es tratado con el más alto nivel de profesionalismo, asegurando la integridad de sus instalaciones críticas.
+              Nos comprometemos con la calidad y la continuidad operativa, respaldando cada intervención con rigor operativo y criterios de aceptación internacionales.
             </p>
+
+            <div className="bg-white/15 backdrop-blur-sm p-6 rounded-lg mb-8 space-y-4 border border-white/10">
+              <p className="text-blue-100 leading-relaxed text-sm sm:text-base">
+                <strong className="text-white">Misión:</strong> Brindar soluciones integrales en ingeniería, construcción y mantenimiento. Garantizar la calidad, seguridad y eficiencia operativa con una dedicación inquebrantable a nuestros clientes en cada proyecto.
+              </p>
+              <div className="border-t border-white/10" />
+              <p className="text-blue-100 leading-relaxed text-sm sm:text-base">
+                <strong className="text-white">Visión:</strong> Convertirnos en referentes de la industria a través de la excelencia operativa en las técnicas innovadoras, enfocándonos en la eficiencia y mejora continua.
+              </p>
+            </div>
 
             <div className="grid grid-cols-2 gap-6">
               <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg">

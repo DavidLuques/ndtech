@@ -23,7 +23,7 @@ export default function Contact() {
               <Mail className="text-blue-600" size={28} />
             </div>
             <h3 className="font-bold text-lg mb-2">Email</h3>
-            <p className="text-gray-600">info@endpro.com.ar</p>
+            <p className="text-gray-600">info@ndtech.com.ar</p>
           </div>
 
           <div className="bg-white p-8 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
