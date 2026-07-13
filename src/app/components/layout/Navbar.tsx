@@ -33,9 +33,17 @@ export default function Navbar() {
         <div className={`flex justify-between items-center transition-all duration-300 ${
           isScrolled ? 'h-14' : 'h-20'
         }`}>
-          <div className="text-2xl font-bold text-blue-900">
-            ND<span className="text-blue-600">Tech</span>
-          </div>
+          <button
+            onClick={() => scrollToSection('inicio')}
+            className="flex items-center focus:outline-none cursor-pointer"
+            aria-label="NDTech Inicio"
+          >
+            <img
+              src="/ndtech.webp"
+              alt="NDTech"
+              className={`transition-all duration-300 ${isScrolled ? 'h-10' : 'h-14'} w-auto object-contain`}        />
+          </button>
+
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
